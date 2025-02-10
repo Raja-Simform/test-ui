@@ -113,3 +113,157 @@ body{
     width:20px ;
     
 }
+.left_navbar{
+    height: calc(100vh - 72px);
+    width: 257px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.menu{
+    /* display: flex;
+    flex-direction: column;
+    margin-top: 46px;
+   
+    width: 100%;
+   
+    color: #9CA4AB; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #9CA4AB;
+    gap: 16px;
+    margin-top: 46px;
+    
+}
+.menu h3{
+    width: 100%;
+    padding-left: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.discovery{
+    width: 100%;
+    padding-left: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    gap: 12px;
+    height: 40px;
+    align-items: center;
+
+}
+.discovery img{
+    height: 24px;
+    width: 24px;
+}
+.navbar_top_rated{
+    width: 100%;
+    padding-left: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 40px;
+
+}
+.navbar_top_rated img{
+    height: 24px;
+    width: 24px;
+}
+.coming_soon{
+    width: 100%;
+    padding-left: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 40px;
+}
+.coming_soon img{
+    height: 24px;
+    width: 24px;
+}
+
+
+.library{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #9CA4AB;
+    gap: 16px;
+}
+.library h3{
+    width: 100%;
+    padding-left: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.recent_played{
+    width: 100%;
+    padding-left: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 40px;
+}
+.recent_played img{
+    height: 24px;
+    width: 24px;
+}
+.download{
+    width: 100%;
+    padding-left: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 40px;
+}
+.download img{
+    height: 24px;
+    width: 24px;
+}
+.dark_mode{
+    width: 100%;
+    padding-left: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 40px;
+}
+.dark_mode img{
+    height: 24px;
+    width: 24px;
+}
+.dark_mode h4{
+    margin-right: 24px;
+}
+#toggle{
+    height: 24px;
+    width: 44px;
+}
+.settings{
+    width: 100%;
+    padding-left: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 40px;
+}
+.settings img{
+    height: 24px;
+    width: 24px;
+}

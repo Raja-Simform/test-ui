@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineMax</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Frame 25.svg" type="image/x-icon">
     
 </head>
 <body>
-    <section class="header">
-        <div class="header_logo">
+    <section class="header" aria-label="header">
+        <div class="header_logo" aria-label="header_logo">
             <h1>CineMax</h1>
         </div>
-        <div class="header_content">
-            <ul class="header_content_list">
-                    <li>Movies</li>
-                    <li>Series</li>
-                    <li>Animation</li>
-                    <li>Genres</li>
+        <div class="header_content" aria-label="header_content">
+            <ul class="header_content_list" aria-label="header_content_list">
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li><a href="#">Animation</a></li>
+                    <li><a href="#">Genres</a></li>
             </ul>
             
-            <div class="header_function">
-                <img src="Search.svg" alt="search_button">
-                <button> Subscribe</button>
-                <div class="notification">
+            <div class="header_function" aria-label="header_function">
+                <img src="Search.svg" alt="search_button" >
+                <button title="Subscribe"> Subscribe</button>
+                <div class="notification" aria-label="notification">
                     <img src="notification.svg" alt="notification" >
                     <img src="Group 491.svg" alt="notification count" id="notification_count">
                 </div>
-                <div class="profile">
+                <div class="profile" aria-label="profile">
                     <img src="Image.svg" alt="Profile_image">
                     <img src="Arrow - Down 2.svg" alt="arrow_down" id="profile_arrow">
                 </div>
@@ -37,37 +38,37 @@
     </section>
     <main>
     <section class="left_navbar">
-        <section class="menu">
+        <section class="menu" aria-label="menu">
             <h3>MENU</h3>
-            <div class="discovery">
+            <div class="discovery" aria-label="discovery">
                 <img src="discover.svg" alt="discovery">
                 <h4>Discovery</h4>
             </div>
-            <div class="navbar_top_rated">
+            <div class="navbar_top_rated" aria-label="navbar_top_rated">
                 <img src="star.svg" alt="Top_rated">
                 <h4>Top_rated</h4>
             </div>
-            <div class="coming_soon">
+            <div class="coming_soon" aria-label="coming_soon">
                 <img src="timer.svg" alt="coming_soon">
                 <h4>Coming Soon</h4>
             </div>
         </section>
-        <section class="library">
+        <section class="library" aria-label="library">
             <h3>Library</h3>
-            <div class="recent_played">
+            <div class="recent_played" aria-label="recent_played">
                 <img src="clock.svg" alt="recent_played">
                 <h4>Recent Played</h4>
             </div>
-            <div class="download">
+            <div class="download" aria-label="download">
                 <img src="document-download.svg" alt="download">
                 <h4>Download</h4>
             </div>
-            <div class="dark_mode">
+            <div class="dark_mode" aria-label="dark_mode">
                 <img src="moon.svg" alt="dark mode">
                 <h4>Dark Mode</h4>
                 <img src="Toggle Light.svg" alt="Mode change" id="toggle">
             </div>
-            <div class="settings">
+            <div class="settings" aria-label="settings">
                 <img src="setting-2.svg" alt="Settings">
                 <h4>Setting</h4>
             </div>
@@ -75,22 +76,22 @@
        
        
     </section>
-    <section class="main_content">
-        <div class="top_rated">
+    <section class="main_content" aria-label="main_content">
+        <div class="top_rated" aria-label="top_rated">
            <h2>Top Rated</h2>
-           <div class="top_rated_cards">
-              <div class="top_rated_card">
+           <div class="top_rated_cards" aria-label="top_rated_cards">
+              <div class="top_rated_card" aria-label="top_rated_card">
                 <p>1</p>
-                <div class="top_rated_card_content">
+                <div class="top_rated_card_content" aria-label="top_rated_card_content">
                     <img src="card1.svg" alt="movie poster">
-                    <div class="top_rated_card_details">
-                        <p>PG-13</p>
-                        <p id="movie_name">The Shawshank...</p>
-                        <div class="genre">
+                    <div class="top_rated_card_details" aria-label="top_rated_card_details">
+                        <p aria-label="Pg-13">PG-13</p>
+                        <p id="movie_name" aria-label="movie_name">The Shawshank...</p>
+                        <div class="genre" aria-label="genre">
                             <img src="film.svg" alt="film">
                             <p>Drama</p>
                         </div>
-                        <div class="rating">
+                        <div class="rating" aria-label="rating">
                             <img src="card_star.svg" alt="rating star">
                             <p>9.2</p>
                         </div>
@@ -98,18 +99,18 @@
                 </div>
 
               </div>
-              <div class="top_rated_card">
+              <div class="top_rated_card" aria-label="top_rated_card">
                 <p>2</p>
-                <div class="top_rated_card_content">
+                <div class="top_rated_card_content" aria-label="top_rated_card_content">
                     <img src="card_2.svg" alt="movie poster">
-                    <div class="top_rated_card_details">
+                    <div class="top_rated_card_details" aria-label="top_rated_card_details">
                         <p>PG-13</p>
                         <p id="movie_name">The Grandfather</p>
-                        <div class="genre">
+                        <div class="genre" aria-label="genre">
                             <img src="film.svg" alt="film">
                             <p>Drama</p>
                         </div>
-                        <div class="rating">
+                        <div class="rating" aria-label="rating">
                             <img src="card_star.svg" alt="rating star">
                             <p>9.2</p>
                         </div>
@@ -118,18 +119,18 @@
 
               </div>
 
-              <div class="top_rated_card">
+              <div class="top_rated_card" aria-label="top_rated_card">
                 <p>3</p>
-                <div class="top_rated_card_content">
+                <div class="top_rated_card_content" aria-label="top_rated_card_content">
                     <img src="card_3.svg" alt="movie poster">
-                    <div class="top_rated_card_details">
+                    <div class="top_rated_card_details" aria-label="top_rated_card_details">
                         <p>PG-13</p>
                         <p id="movie_name">The Dark Knight...</p>
-                        <div class="genre">
+                        <div class="genre" aria-label="genre">
                             <img src="film.svg" alt="film">
                             <p>Drama</p>
                         </div>
-                        <div class="rating">
+                        <div class="rating" aria-label="rating">
                             <img src="card_star.svg" alt="rating star">
                             <p>9.2</p>
                         </div>
@@ -138,18 +139,18 @@
               </div>
 
 
-              <div class="top_rated_card">
+              <div class="top_rated_card" aria-label="top_rated_card">
                 <p>2</p>
-                <div class="top_rated_card_content">
+                <div class="top_rated_card_content" aria-label="top_rated_card_content">
                     <img src="card_2.svg" alt="movie poster">
-                    <div class="top_rated_card_details">
+                    <div class="top_rated_card_details" aria-label="top_rated_card_details">
                         <p>PG-13</p>
                         <p id="movie_name">The Grandfather</p>
-                        <div class="genre">
+                        <div class="genre" aria-label="genre">
                             <img src="film.svg" alt="film">
                             <p>Drama</p>
                         </div>
-                        <div class="rating">
+                        <div class="rating" aria-label="rating">
                             <img src="card_star.svg" alt="rating star">
                             <p>9.2</p>
                         </div>
@@ -159,18 +160,18 @@
               </div>
 
 
-              <div class="top_rated_card">
+              <div class="top_rated_card" aria-label="top_rated_card" >
                 <p>2</p>
-                <div class="top_rated_card_content">
+                <div class="top_rated_card_content" aria-label="top_rated_card_content">
                     <img src="card_2.svg" alt="movie poster">
-                    <div class="top_rated_card_details">
+                    <div class="top_rated_card_details" aria-label="top_rated_card_details">
                         <p>PG-13</p>
                         <p id="movie_name">The Grandfather</p>
-                        <div class="genre">
+                        <div class="genre" aria-label="genre">
                             <img src="film.svg" alt="film">
                             <p>Drama</p>
                         </div>
-                        <div class="rating">
+                        <div class="rating" aria-label="rating">
                             <img src="card_star.svg" alt="rating star">
                             <p>9.2</p>
                         </div>
@@ -178,18 +179,18 @@
                 </div>
 
               </div>
-              <div class="top_rated_card">
+              <div class="top_rated_card" aria-label="top_rated_card">
                 <p>2</p>
                 <div class="top_rated_card_content">
                     <img src="card_2.svg" alt="movie poster">
-                    <div class="top_rated_card_details">
+                    <div class="top_rated_card_details" aria-label="top_rated_card_details">
                         <p>PG-13</p>
                         <p id="movie_name">The Grandfather</p>
-                        <div class="genre">
+                        <div class="genre" aria-label="genre">
                             <img src="film.svg" alt="film">
                             <p>Drama</p>
                         </div>
-                        <div class="rating">
+                        <div class="rating" aria-label="rating">
                             <img src="card_star.svg" alt="rating star">
                             <p>9.2</p>
                         </div>
@@ -200,14 +201,14 @@
 
            </div>
         </div>
-        <div class="best_of_action">
+        <div class="best_of_action" aria-label="best_of_action">
             <p>Best Of Action</p>
-            <div class="best_of_action_content">
-            <div class="best_action_cards">
-                <div class="best_action_card">
-                    <img src="2card1.svg" alt="movie image">
+            <div class="best_of_action_content" aria-label="best_of_action_content">
+            <div class="best_action_cards" aria-label="best_action_cards">
+                <div class="best_action_card" aria-label="best_action_card">
+                    <img src="2card1.svg" alt="movie image" >
                     <p id="best_action_card_title">The Man from Toronto</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
                         <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
                         <p id="best_action_card_rating">4.6 </p>
@@ -220,10 +221,10 @@
                     </div>
                 </div>
 
-                <div class="best_action_card">
+                <div class="best_action_card" aria-label="best_action_card">
                     <img src="extraction.svg" alt="movie image">
                     <p id="best_action_card_title">Extraction</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
                         <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
                         <p id="best_action_card_rating">4.6 </p>
@@ -237,10 +238,10 @@
                 </div>
 
 
-                <div class="best_action_card">
+                <div class="best_action_card" aria-label="best_action_card">
                     <img src="godzilla.svg" alt="movie image">
                     <p id="best_action_card_title">Godzilla:King of the monsters</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
                         <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
                         <p id="best_action_card_rating">4.6 </p>
@@ -255,12 +256,12 @@
 
 
 
-                <div class="best_action_card">
+                <div class="best_action_card" aria-label="best_action_card">
                     <img src="jumanji.svg" alt="movie image">
                     <p id="best_action_card_title">Jumanji:The Next Level</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
-                        <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
+                        <img src="card_star.svg" alt="rating_star" id="best_action_card_star" >
                         <p id="best_action_card_rating">4.6 </p>
                         <p id="line">|</p>
                         <p id="best_action_card_genre">Action</p>
@@ -272,10 +273,10 @@
                 </div>
 
 
-                <div class="best_action_card">
+                <div class="best_action_card" aria-label="best_action_card">
                     <img src="2card1.svg" alt="movie image">
                     <p id="best_action_card_title">The Man from Toronto</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
                         <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
                         <p id="best_action_card_rating">4.6 </p>
@@ -289,27 +290,12 @@
                 </div>
 
 
-                <div class="best_action_card">
-                    <img src="2card1.svg" alt="movie image">
-                    <p id="best_action_card_title">The Man from Toronto</p>
-                    <div class="best_action_card_details">
-                    
-                        <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
-                        <p id="best_action_card_rating">4.6 </p>
-                        <p id="line">|</p>
-                        <p id="best_action_card_genre">Action</p>
-                        <img src="dot-svgrepo-com.svg" alt="dot"  id="dot">
-                        <p id="Movie">Movie</p>
-                        
-                         
-                    </div>
-                </div>
 
-                <div class="best_action_card arrow_class">
+                <div class="best_action_card arrow_class" aria-label="best_action_cards">
                     <img src="2card1.svg" alt="movie image">
                     <img src="arrow-right.svg" alt="arrow right" id="arrow-right">
                     <p id="best_action_card_title">The Man from Toronto</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
                         <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
                         <p id="best_action_card_rating">4.6 </p>
@@ -323,11 +309,11 @@
                 </div>
 
             </div>
-            <div class="best_action_cards">
-                <div class="best_action_card">
+            <div class="best_action_cards" aria-label="best_action_card">
+                <div class="best_action_card" aria-label="best_action_card">
                     <img src="yakshi.svg" alt="movie image">
                     <p id="best_action_card_title">Yaksha:Ruthless Operations</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
                         <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
                         <p id="best_action_card_rating">4.6 </p>
@@ -340,10 +326,10 @@
                     </div>
                 </div>
 
-                <div class="best_action_card">
+                <div class="best_action_card" aria-label="best_action_card">
                     <img src="mechanic.svg" alt="movie image">
                     <p id="best_action_card_title">Mechanic Resurrection</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
                         <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
                         <p id="best_action_card_rating">4.6 </p>
@@ -357,10 +343,10 @@
                 </div>
 
 
-                <div class="best_action_card">
+                <div class="best_action_card" aria-label="best_action_card">
                     <img src="underground.svg" alt="movie image">
                     <p id="best_action_card_title">6 Undergroud</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
                         <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
                         <p id="best_action_card_rating">4.6 </p>
@@ -375,10 +361,10 @@
 
 
 
-                <div class="best_action_card">
+                <div class="best_action_card" aria-label="best_action_card">
                     <img src="pirates.svg" alt="movie image">
                     <p id="best_action_card_title">The Pirates: The Last Royal...</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
                         <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
                         <p id="best_action_card_rating">4.6 </p>
@@ -392,10 +378,10 @@
                 </div>
 
 
-                <div class="best_action_card">
+                <div class="best_action_card" aria-label="best_action_card">
                     <img src="2card1.svg" alt="movie image">
                     <p id="best_action_card_title">The Man from Toronto</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
                         <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
                         <p id="best_action_card_rating">4.6 </p>
@@ -409,27 +395,13 @@
                 </div>
 
 
-                <div class="best_action_card">
-                    <img src="2card1.svg" alt="movie image">
-                    <p id="best_action_card_title">The Man from Toronto</p>
-                    <div class="best_action_card_details">
-                    
-                        <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
-                        <p id="best_action_card_rating">4.6 </p>
-                        <p id="line">|</p>
-                        <p id="best_action_card_genre">Action</p>
-                        <img src="dot-svgrepo-com.svg" alt="dot"  id="dot">
-                        <p id="Movie">Movie</p>
-                        
-                         
-                    </div>
-                </div>
+               
 
-                <div class="best_action_card arrow_class">
+                <div class="best_action_card arrow_class" aria-label="best_action_card">
                     <img src="2card1.svg" alt="movie image">
                     <img src="arrow-right.svg" alt="arrow right" id="arrow-right">
                     <p id="best_action_card_title">The Man from Toronto</p>
-                    <div class="best_action_card_details">
+                    <div class="best_action_card_details" aria-label="best_action_card_details">
                     
                         <img src="card_star.svg" alt="rating_star" id="best_action_card_star">
                         <p id="best_action_card_rating">4.6 </p>

@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
 }
 .poppins-bold {
@@ -34,6 +34,7 @@ body{
     margin-left: 42px;
     align-items: center;
     list-style: none;
+    width: 347px;
     
 
 }
@@ -60,3 +61,38 @@ body{
   line-height: 28px;
   color: #171725;
 }  
+.header_function{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    
+}
+.header_function > img{
+    margin-right: 22px;
+    height: 20.26px;
+    width: 20.72px;
+
+}
+.header_function button{
+    height: 40px;
+    width: 128px;
+    background-color: #B43FEB;
+    border-radius: 24px;
+    color: white;
+    border: none;
+}
+.notification{
+    position: relative;
+    border: 1px solid black;
+    height: 24px;
+    width: 24px;
+}
+#notification_count{
+       position: absolute;
+       height: 18px;
+       width: 18px;
+       bottom: 12px;
+       right: -10px;
+
+}

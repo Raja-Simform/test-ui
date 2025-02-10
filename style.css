@@ -19,7 +19,7 @@ main{
     height: 100vh - 72px;
     width: 100vw ;
     display: flex;
-   
+    flex: none;
 }
 .header{
     height:72px ;
@@ -282,7 +282,7 @@ main{
 .main_content{
     height: 100vh - 72px;
     overflow: auto;
-    flex: 1;
+    flex: auto;
 }
 .top_rated{
     margin-left: 32px;
@@ -293,6 +293,8 @@ main{
     height: 193px;
     width: 100%;
     margin-bottom: 40px;
+    
+    
 }
 
 

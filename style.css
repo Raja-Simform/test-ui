@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    
+    border: 1px solid red;
     
 }
 .poppins-bold {
@@ -18,7 +18,31 @@ body{
 .header{
     height:72px ;
     width: 100%;
+    display: flex;
     
+}
+.header_content{
+    width: calc(100vw - 257px);
+    display: flex;
+    justify-content: space-between;
+}
+.header_content_list {
+
+    gap: 36px;
+    height: 100%;
+    display: flex;
+    margin-left: 42px;
+    align-items: center;
+    list-style: none;
+    
+
+}
+.header_content_list li{
+    font-weight: 500px;
+    font-size: 16px;
+     height: 24px;
+
+    color: #171725;
 }
 .header_logo{
  display: flex;
@@ -26,7 +50,7 @@ body{
  align-items: center;
  height: 100%;
  width: 257px;
- border: 1px solid red;
+
 }
 .header_logo h1{
   height: 28px;
@@ -35,4 +59,4 @@ body{
   size: 20px;
   line-height: 28px;
   color: #171725;
-  
+}  

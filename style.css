@@ -84,7 +84,7 @@ body{
 }
 .notification{
     position: relative;
-    border: 1px solid black;
+    
     height: 24px;
     width: 24px;
 }
@@ -95,4 +95,21 @@ body{
        bottom: 12px;
        right: -10px;
 
+}
+.profile{
+    height: 32px;
+    width: 56px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 50px;
+}
+.profile > img{
+    height: 32px;
+    width: 32px;
+}
+#profile_arrow{
+    height:20px ;
+    width:20px ;
+    
 }

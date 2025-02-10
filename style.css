@@ -6,25 +6,35 @@
     /* border: 1px solid red; */
     
 }
+
+:root {
+    --black: #171725;
+    --voilet:#B43FEB;
+}
 .poppins-bold {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
 }
+
 body{
     height: 100vh;
     width: 100vw;
+    
+    
 }
-main{
-    height: 100vh - 72px;
-    width: 100vw ;
-    display: flex;
-    flex: none;
-}
+
 .header{
     height:72px ;
     width: 100%;
     display: flex;
+    
+}
+main{
+    height: calc(100vh - 60px);
+    width: 100vw ;
+    display: flex;
+   
     
 }
 .header_content{
@@ -49,11 +59,11 @@ main{
     font-size: 16px;
      height: 24px;
    
-    color: #171725;
+    color: var(--black);
 }
 .header_content_list li a{
     text-decoration: none;
-    color: #171725;
+    color: var(--black);
 }
 
 .header_logo{
@@ -70,7 +80,7 @@ main{
   
   size: 20px;
   line-height: 28px;
-  color: #171725;
+  color: var(--black);
 }  
 .header_function{
     display: flex;
@@ -88,7 +98,7 @@ main{
 .header_function button{
     height: 40px;
     width: 128px;
-    background-color: #B43FEB;
+    background-color: var(--voilet);
     border-radius: 24px;
     color: white;
     border: none;
@@ -280,10 +290,11 @@ main{
     width: 24px;
 }
 .main_content{
-    height: 100vh - 72px;
-    overflow: auto;
-    flex: auto;
+    height: calc(100vh - 72px);
+    width: calc(100vw - 257px);
+    
 }
+
 .top_rated{
     margin-left: 32px;
     margin-top: 32px;
@@ -291,9 +302,9 @@ main{
     flex-direction: column;
     gap: 24px;
     height: 193px;
-    width: 100%;
+    width: calc(100vw - 257px - 32px) ;
     margin-bottom: 40px;
-    
+   
     
 }
 
@@ -373,11 +384,13 @@ main{
     display: flex;
     gap: 4px;
 }
+
 .best_of_action{
     height: 32px;
     width: 167px;
     font-weight: 700;
     margin-left: 32px;
+    
     
 }
 .best_of_action >  p{
